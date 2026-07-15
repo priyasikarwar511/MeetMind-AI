@@ -1,0 +1,33 @@
+# Secrets
+.env
+backend/.env
+frontend/.env
+ai-worker/.env
+
+# Design docs (private)
+DESIGN.md
+docs/
+
+# Dependencies
+node_modules
+backend/node_modules
+frontend/node_modules
+ai-worker/node_modules
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+chroma/
+ai-worker/chroma_data/
+
+# Vector DB
+chroma/
+chroma/**
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model cache
+.cache/
